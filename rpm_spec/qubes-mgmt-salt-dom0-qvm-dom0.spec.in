@@ -1,19 +1,18 @@
 
-Name:      qubes-mgmt-salt-dom0-qvm
-Version:   @VERSION@
-Release:   1%{?dist}
-Summary:   Salt formula to interface to many of the Qubes dom0 qvm-* tools via a state file or module
-License:   GPL 2.0
-URL:	   http://www.qubes-os.org/
+Name:       qubes-mgmt-salt-dom0-qvm
+Version:    @VERSION@
+Release:    1%{?dist}
+Summary:    Salt formula to interface to many of the Qubes dom0 qvm-* tools via a state file or module
+License:    GPL 2.0
+URL:        http://www.qubes-os.org/
 
-Group:     System administration tools
-BuildArch: noarch
-Requires:  qubes-mgmt-salt
-Requires:  qubes-mgmt-salt-dom0
-Requires:  python3-qubesadmin
+Group:      System administration tools
+BuildArch:  noarch
+Requires:   qubes-mgmt-salt
+Requires:   qubes-mgmt-salt-dom0
+Requires:   python3-qubesadmin
 
-
-Source0: %{name}-%{version}.tar.gz
+Source0:    %{name}-%{version}.tar.gz
 
 %description
 Salt formula to interface to many of the Qubes dom0 qvm-* tools via a state file or module
